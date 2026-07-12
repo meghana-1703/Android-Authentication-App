@@ -2,12 +2,12 @@
 
 ### Splash Screen
 
-![Splash Screen](screenshots/splash-screen.png)
+![Splash Screen](screenshots/splash.png)
 
 ### Login Screen
 
-![Login Screen](screenshots/login-screen.png)
+![Login Screen](screenshots/login.png)
 
 ### Registration Screen
 
-![Registration Screen](screenshots/registration-screen.png)
+![Registration Screen](screenshots/registration.png)
