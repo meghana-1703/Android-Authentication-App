@@ -56,6 +56,14 @@ Open the project in Android Studio.
 
 Build and run the Android application.
 
+## 📸 Application Screenshots
+
+![Splash Screen](screenshots/splash.png)
+
+![Login Screen](screenshots/login.png)
+
+![Register Screen](screenshots/register.png)
+
 
 ## 👩‍💻 Author
 
