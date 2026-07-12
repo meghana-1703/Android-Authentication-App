@@ -1,0 +1,15 @@
+package com.meghana.loginandreg.navigation
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+sealed class Screen {
+    @Serializable
+    data object Splash : Screen()
+    @Serializable
+    data object Login : Screen()
+    @Serializable
+    data object Register : Screen()
+    @Serializable
+    data object Home : Screen()
+}
