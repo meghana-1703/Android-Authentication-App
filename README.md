@@ -45,7 +45,7 @@ shared/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/meghana-1703/REPOSITORY_NAME.git
+git clone https://github.com/meghana-1703/Android-Authentication-App.git
 ```
 
 ### Open
