@@ -1,29 +1,76 @@
-This is a Kotlin Multiplatform project targeting Android and iOS.
+# 📱 Android Authentication App
 
-* [/iosApp](./iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
-
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-
-### Running the apps
-
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
-
-- Android app: `./gradlew :androidApp:assembleDebug`
-- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
-
-### Running tests
-
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
+A modern Android Authentication application built using **Kotlin Multiplatform (KMP)** following the **MVVM Architecture**. The application provides secure user authentication with a clean and responsive user interface.
 
 ---
+
+## ✨ Features
+
+- 🔐 User Registration
+- 🔑 User Login
+- 👤 User Authentication
+- 📱 Modern UI using Jetpack Compose
+- 🧩 MVVM Architecture
+- 💾 Local Data Storage
+- ⚡ Kotlin Multiplatform Support
+- 📂 Clean Project Structure
+
+---
+
+## 🛠️ Tech Stack
+
+- Kotlin Multiplatform
+- Jetpack Compose
+- MVVM Architecture
+- Kotlin Coroutines
+- DataStore
+- Android Studio
+
+---
+
+## 📂 Project Structure
+
+```
+androidApp/
+shared/
+ ├── datastore/
+ ├── model/
+ ├── navigation/
+ ├── repository/
+ ├── ui/
+ ├── viewmodel/
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/meghana-1703/REPOSITORY_NAME.git
+```
+
+### Open
+
+Open the project in Android Studio.
+
+### Run
+
+Build and run the Android application.
+
+
+## 👩‍💻 Author
+
+**Meghana**
+
+GitHub:
+https://github.com/meghana-1703
+
+LinkedIn:
+www.linkedin.com/in/muduthanapally-meghana-77baa7287
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to give it a ⭐ on GitHub.
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
